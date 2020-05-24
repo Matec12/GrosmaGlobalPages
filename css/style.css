@@ -2694,7 +2694,7 @@ html {
   @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
-  @media (min-width: 112.5em) {
+  @media (min-width: 112.5rem) {
     html {
       font-size: 80%; } }
 
@@ -2788,7 +2788,7 @@ a, a:visited, a:focus, a:active, a:hover {
   opacity: .9; }
 
 .heading-primary {
-  color: #000536;
+  color: #034c77;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
@@ -3648,7 +3648,11 @@ button.slick-next.fa.fa-angle-right.slick-arrow, .slick-prev.fa.fa-angle-left.sl
 
 @media only screen and (max-width: 979px) and (min-width: 768px) {
   .main-menu-btn {
-    margin-top: 30px; } }
+    margin-top: 60px; } }
+
+@media only screen and (max-width: 430px) {
+  .main-menu-btn {
+    margin-top: 80px; } }
 
 .u-center-text {
   text-align: center !important; }
@@ -4350,21 +4354,25 @@ a:hover {
 .section-blog .grosma-main-head {
   padding-top: 15px;
   padding-left: 0;
-  margin-bottom: 35px;
+  margin-bottom: -40px;
   position: relative;
-  font: 900 60px/0.8 'Roboto', sans-serif;
+  font: 900 50px/0.8 'Roboto', sans-serif;
   letter-spacing: -2px;
   text-transform: uppercase;
   color: #292929; }
+  @media (min-width: 150.5rem) {
+    .section-blog .grosma-main-head {
+      font-size: 55px;
+      margin-bottom: -50px; } }
   @media (max-width: 75em) {
     .section-blog .grosma-main-head {
       font-size: 40px;
-      margin-bottom: -40px;
+      margin-bottom: -70px;
       margin-left: -10px; } }
   @media (max-width: 32em) {
     .section-blog .grosma-main-head {
       font-size: 30px;
-      margin-bottom: -40px;
+      margin-bottom: -80px;
       margin-left: -10px; } }
 
 .section-blog .feature p, .section-blog .feature span, .section-blog .feature li {
@@ -4402,7 +4410,17 @@ p.blog-field.blog-field-title.blog-title, .grosma-pet .feature-3 {
     .grosma-pet .btn-filled {
       float: right;
       right: 10px;
-      top: 80px; } }
+      top: 110px; } }
+  @media (max-width: 42.5em) {
+    .grosma-pet .btn-filled {
+      float: right;
+      right: 10px;
+      top: 180px; } }
+  @media (max-width: 42.5em) {
+    .grosma-pet .btn-filled {
+      float: right;
+      right: 10px;
+      top: 110px; } }
 
 footer.bg-dark a {
   color: #fff; }
@@ -4860,6 +4878,9 @@ ul#menu2 {
   margin-top: 25px; }
 
 .service-menu ul.navbar-nav {
+  margin-left: 26%; }
+
+.service-menu ul.navbar-nav {
   margin-left: 22%;
   width: 30%;
   height: 50px; }
@@ -4868,9 +4889,9 @@ ul#menu2 {
   z-index: 100; }
 
 .service-menu .dropdown.grosma-mega-menu > a:hover, .service-menu .dropdown.grosma-mega-menu > a:visited, .service-menu .dropdown.grosma-mega-menu > a:active {
-  background: #000536;
+  background: #034c77;
   color: #fff;
-  height: 60px;
+  height: 53px;
   width: 115px; }
 
 .service-menu .dropdown.grosma-mega-menu > a.dropmenu:hover, .service-menu .dropdown.grosma-mega-menu > a.dropmenu:visited, .service-menu .dropdown.grosma-mega-menu > a.dropmenu:active {
@@ -4930,10 +4951,19 @@ li.dropmenu {
   width: 1518.200px;
   background: #fff;
   border-top: none;
-  border: 5px solid #000536;
+  border: 5px solid #034c77;
   padding: 0 0 15px 0;
   box-shadow: -2px 2px 9px 0px rgba(77, 56, 56, 0.51);
   margin-left: -393px; }
+  @media (max-width: 144rem) {
+    .service-menu .navbar-nav > li > .dropdown-menu {
+      width: 1440px;
+      background: #fff;
+      border-top: none;
+      border: 5px solid #034c77;
+      padding: 0 0 15px 0;
+      box-shadow: -2px 2px 9px 0px rgba(77, 56, 56, 0.51);
+      margin-left: -372px; } }
 
 .sub-menu-one {
   width: 1520px;
@@ -4954,22 +4984,59 @@ li.dropmenu {
   box-shadow: -2px 2px 9px 0px rgba(77, 56, 56, 0.51); }
 
 .service-menu .navbar-nav > li > .menu-two {
-  width: 1515.200px;
+  width: 1440.200px;
   background: #fff;
   border-top: none;
-  border: 5px solid #000536;
+  border: 5px solid #034c77;
   padding: 0 0 15px 0;
   box-shadow: -2px 2px 9px 0px rgba(0, 0, 0, 0.5098);
-  margin-left: -500px; }
+  margin-left: -491.8px; }
 
 .service-menu .navbar-nav > li > .menu-three {
-  width: 1518.200px;
+  width: 1440.200px;
   background: #fff;
   border-top: none;
-  border: 5px solid #000536;
+  border: 5px solid #034c77;
   padding: 0 0 15px 0;
   box-shadow: -2px 2px 9px 0px rgba(0, 0, 0, 0.5098);
   margin-left: -611.8px; }
+
+.service-menu .navbar-nav > li > .menu-four {
+  width: 1440.200px;
+  background: #fff;
+  border-top: none;
+  border: 5px solid #034c77;
+  padding: 0 0 15px 0;
+  box-shadow: -2px 2px 9px 0px rgba(0, 0, 0, 0.5098);
+  margin-left: -791.8px; }
+
+.service-menu .navbar-nav > li > .menu-five {
+  width: 1440.200px;
+  background: #fff;
+  border-top: none;
+  border: 5px solid #034c77;
+  padding: 0 0 15px 0;
+  box-shadow: -2px 2px 9px 0px rgba(0, 0, 0, 0.5098);
+  margin-left: -913.8px; }
+
+.navbar_group_center {
+  flex-grow: 1;
+  /* Landscape tablets and desktop or laptops */
+  /* Landscape tablets and desktop or laptops */ }
+
+@media only screen and (max-width: 991px) {
+  /* line 69, ../sass/partials/_header_nav.scss */
+  .navbar_group_center {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; } }
+
+@media only screen and (min-width: 992px) {
+  /* line 69, ../sass/partials/_header_nav.scss */
+  .navbar_group_center {
+    padding-left: 30px;
+    padding-right: 30px; } }
 
 .nav > li > a:focus {
   text-decoration: none;
@@ -5118,18 +5185,20 @@ a.navbar-brand {
 @media screen and (min-width: 2560px) {
   a.navbar-brand img,
   .navbar-brand .brand-logo img {
-    width: 80%; } }
+    width: 80%;
+    height: 60px; } }
 
 @media screen and (min-width: 1920px) {
   a.navbar-brand img,
   .navbar-brand .brand-logo img {
-    width: 100%; } }
+    width: 100%;
+    height: 60px; } }
 
 @media screen and (max-width: 2560px) {
   a.navbar-brand img {
     width: 80%;
     margin-top: -12px;
-    height: 70px; } }
+    height: 60px; } }
 
 @media screen and (max-width: 1024px) {
   a.navbar-brand img {
@@ -5171,6 +5240,9 @@ span.brand-logo {
   width: 100%;
   position: absolute;
   left: 0px; }
+  @media (min-width: 150.5rem) {
+    .service-menu {
+      left: 300px; } }
 
 .service-menu .nav-tabs.nav-tabs {
   margin-top: 8px;
@@ -5785,9 +5857,6 @@ a.new-app-btn {
   font-size: 12px;
   text-transform: uppercase; }
 
-.menu-details ul li.blurred-div a {
-  color: #999; }
-
 .menu-details ul li.blurred-div a:hover {
   color: #000; }
 
@@ -5944,27 +6013,25 @@ a.new-app-btn {
     display: none; } }
 
 @media only screen and (max-width: 767px) and (min-width: 425px) {
-  /* line 1184, ../sass/partials/_header_nav.scss */
   brand img, .navbar-brand .brand-logo img {
     width: 60%;
     margin-top: -24px;
-    margin-left: -12px;
+    margin-left: -21px;
     height: 50px; } }
 
 @media only screen and (max-width: 374px) and (min-width: 320px) {
   brand img, .navbar-brand .brand-logo img {
     width: 60%;
     margin-top: -31px;
-    margin-left: -12px;
+    margin-left: -21px;
     height: 50px; } }
 
 @media only screen and (max-width: 424px) and (min-width: 375px) {
-  /* line 1203, ../sass/partials/_header_nav.scss */
   brand img, .navbar-brand .brand-logo img {
     width: 60%;
     margin-top: -24px;
-    margin-left: -12px;
-    height: 50px; } }
+    margin-left: -21px;
+    height: 48px; } }
 
 @media only screen and (max-width: 766px) and (min-width: 441px) {
   /* line 1203, ../sass/partials/_header_nav.scss */
@@ -6479,13 +6546,6 @@ section#block-views-tweets-block h2 {
     margin-bottom: 10px; }
   section.copy-right {
     margin-top: 10px; }
-  section.quick-links,
-  section.social-block {
-    width: 33.33%;
-    display: inline-block;
-    vertical-align: top;
-    padding: 0;
-    float: none; }
   section.quick-links > .row {
     margin: 0; }
   section.twitter-footer {
@@ -6521,28 +6581,13 @@ section#block-views-tweets-block h2 {
 @media only screen and (max-width: 767px) {
   footer {
     padding: 72px 0 20px;
-    margin-bottom: 0; }
-  .footer-contact-us {
-    width: 100%;
-    height: auto;
-    position: static;
-    z-index: 0; }
-  .contact-icon {
-    width: 100%;
-    margin: 20px auto; } }
+    margin-bottom: 0; } }
 
 /*====	Mobile (Landscape) Design for a width of 480px ====================*/
 @media only screen and (min-width: 480px) and (max-width: 569px) {
   footer {
     padding: 72px 0 20px;
     margin-bottom: 0; }
-  .footer-contact-us {
-    width: 100%;
-    height: auto;
-    position: static;
-    z-index: 0; }
-  .footer-contact-us h2 {
-    font-size: 36px; }
   .related-papers-thankyou, .related-papers-thankyou, .service-thnk-pramo {
     padding: 20px 25px; }
   .ast-div {
@@ -6828,6 +6873,59 @@ ul.ui-autocomplete {
   background-size: cover;
   background-position: center center; }
 
+.overlay2 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto; }
+
+.overlay2 .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white; }
+
+.overlay2 .closebtn:hover {
+  color: #ccc; }
+
+.overlay2 input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white; }
+
+.overlay2 input[type=text]:hover {
+  background: #f1f1f1; }
+
+.overlay2 button {
+  float: left;
+  width: 10%;
+  padding: 12px 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer; }
+
+.overlay2 button:hover {
+  background: #bbb; }
+
 .navig__checkbox {
   display: none; }
 
@@ -6843,6 +6941,10 @@ ul.ui-autocomplete {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   text-align: center;
   cursor: pointer; }
+  @media (min-width: 150.5rem) {
+    .navig__button {
+      top: -0.1rem;
+      right: 2.5rem; } }
   @media (max-width: 56.25em) {
     .navig__button {
       top: 1.3rem;
@@ -6853,31 +6955,11 @@ ul.ui-autocomplete {
       right: 3rem; } }
 
 .navig__background {
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
   position: fixed;
-  top: 9px;
-  right: 9px;
-  background-image: radial-gradient(#0085b9, #0986b8);
+  right: -10px;
+  background-color: #034c77;
   z-index: 1000;
-  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
-  @media (max-width: 75em) {
-    .navig__background {
-      top: 10px;
-      right: 2.6rem; } }
-  @media (min-width: 1440px) {
-    .navig__background {
-      top: 10px;
-      right: 2.5rem; } }
-  @media (max-width: 56.25em) {
-    .navig__background {
-      top: 1.9rem;
-      right: 2rem; } }
-  @media (max-width: 37.5em) {
-    .navig__background {
-      top: 1rem;
-      right: 2.6rem; } }
+  transition: transform .8s; }
 
 .navig__nav {
   height: 100vh;
@@ -6891,35 +6973,60 @@ ul.ui-autocomplete {
 
 .navig__list {
   position: absolute;
-  top: 50%;
-  left: 90%;
+  top: 30%;
+  left: 130%;
   transform: translate(-50%, -50%);
   list-style: none;
   /*   text-align: center; */
   width: 100%; }
+  @media (min-width: 150.5rem) {
+    .navig__list {
+      top: 25%;
+      left: 139%; } }
+  @media (max-width: 75em) {
+    .navig__list {
+      top: 25%;
+      left: 121%; } }
+  @media (max-width: 56.25em) {
+    .navig__list {
+      top: 30%;
+      left: 113%; } }
+  @media (max-width: 42.5em) {
+    .navig__list {
+      top: 30%;
+      left: 82%; } }
+
+@media only screen and (max-width: 418px) and (min-width: 375px) {
+  .navig__list {
+    top: 30%;
+    left: 73%; } }
+
+@media only screen and (max-width: 374px) and (min-width: 320px) {
+  .navig__list {
+    top: 30%;
+    left: 60%; } }
 
 .navig__item {
   margin: 1rem; }
 
 .navig__link:link, .navig__link:visited {
   display: inline-block;
-  font-size: 3rem;
-  font-weight: 300;
-  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
-  background-size: 220%;
+  background-size: 230%;
   transition: all .4s; }
 
 .navig__link:hover, .navig__link:active {
   background-position: 100%;
-  color: #0085b9;
+  color: #001d6b;
   transform: translateX(1rem); }
 
 .navig__checkbox:checked ~ .navig__background {
-  transform: scale(80); }
+  transform: scaleY(100) scaleX(130); }
 
 .navig__checkbox:checked ~ .navig__nav {
   opacity: 1;

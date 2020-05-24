@@ -13239,13 +13239,13 @@ h3.new-subhead {
 
 @media only screen and (max-width: 480px) {
   /* line 922, ../sass/partials/_custom.scss */
-  .gep-fet .text-center {
+  .grosma-fet .text-center {
     min-height: 170px;
   }
 }
 @media only screen and (max-width: 320px) {
   /* line 927, ../sass/partials/_custom.scss */
-  .gep-fet .text-center {
+  .grosma-fet .text-center {
     min-height: 170px;
     font-size: 12px;
   }
