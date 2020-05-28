@@ -1209,7 +1209,7 @@ td {
   }
 
   /* line 262, ../sass/partials/_responsive.scss */
-  .new-qoute-box {
+  .new-quote-box {
     margin-top: 63px;
   }
 
@@ -4098,7 +4098,7 @@ td {
 
   /* Quote style */
   /* line 2467, ../sass/partials/_responsive.scss */
-  .new-qoute-box p {
+  .new-quote-box p {
     padding: 5px 20px;
     margin-top: 25px;
   }
@@ -4486,7 +4486,7 @@ td {
   }
 
   /* line 2761, ../sass/partials/_responsive.scss */
-  .new-ceo-qoutes .new-qoute-box p {
+  .new-ceo-qoutes .new-quote-box p {
     padding: 5px 10px;
   }
 
@@ -5384,7 +5384,7 @@ ul.small-bullets li {
 }
 
 /* line 98, ../sass/partials/_assets.scss */
-.asset-content-wrapper .new-qoute-box2 {
+.asset-content-wrapper .new-quote-box2 {
   border-top: 2px solid #f6a30a;
   border-bottom: 2px solid #f6a30a;
   position: relative;
@@ -5394,7 +5394,7 @@ ul.small-bullets li {
 }
 
 /* line 106, ../sass/partials/_assets.scss */
-.asset-content-wrapper .new-qoute-box2 p {
+.asset-content-wrapper .new-quote-box2 p {
   padding: 20px 63px;
   color: #006699;
   font-size: 20px;
@@ -5405,7 +5405,7 @@ ul.small-bullets li {
 }
 
 /* line 116, ../sass/partials/_assets.scss */
-.asset-content-wrapper .new-qoute-box2::before {
+.asset-content-wrapper .new-quote-box2::before {
   width: 20px;
   height: 20px;
   background: red;
@@ -6038,7 +6038,7 @@ ul.style-disc li {
   }
 
   /* line 582, ../sass/partials/_assets.scss */
-  .asset-content-wrapper .new-qoute-box2 p {
+  .asset-content-wrapper .new-quote-box2 p {
     padding-right: 0px;
     padding-left: 58px;
   }
@@ -12433,7 +12433,7 @@ p {
 }
 
 /* line 271, ../sass/partials/_custom.scss */
-.new-qoute-box {
+.new-quote-box {
   padding: 30px 0;
   border-top: 2px solid #f6a30a;
   border-bottom: 2px solid #f6a30a;
@@ -12457,7 +12457,7 @@ span.q-1 {
 }
 
 /* line 292, ../sass/partials/_custom.scss */
-.new-qoute-box p {
+.new-quote-box p {
   padding: 5px 63px;
   margin-bottom: 0;
   position: relative;
@@ -18483,12 +18483,12 @@ p.lead-title strong {
 }
 
 /* line 5195, ../sass/partials/_custom.scss */
-.new-ceo-qoutes .new-qoute-box p {
+.new-ceo-qoutes .new-quote-box p {
   padding: 5px 50px;
 }
 
 /* line 5197, ../sass/partials/_custom.scss */
-.new-ceo-qoutes .new-qoute-box span.qt-title {
+.new-ceo-qoutes .new-quote-box span.qt-title {
   display: block;
 }
 

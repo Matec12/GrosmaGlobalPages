@@ -2697,6 +2697,9 @@ html {
   @media (min-width: 112.5rem) {
     html {
       font-size: 80%; } }
+  @media (min-width: 150.5rem) {
+    html {
+      font-size: 100%; } }
 
 body {
   box-sizing: border-box;
@@ -2753,6 +2756,9 @@ a {
 
 li {
   list-style: none; }
+
+.text-left {
+  text-align: left !important; }
 
 body {
   font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -3793,7 +3799,7 @@ span.q-1 {
   top: 20px;
   left: -10px; }
 
-.new-qoute-box {
+.new-quote-box {
   padding: 30px 0;
   border-top: 2px solid #f6ad41;
   border-bottom: 2px solid #f6ad41;
@@ -3801,11 +3807,11 @@ span.q-1 {
   margin-top: 30px;
   position: relative; }
 
-.new-qoute-box p {
+.new-quote-box p {
   padding: 5px 63px;
   margin-bottom: 0;
   position: relative;
-  color: #181c87;
+  color: #0085b9;
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   line-height: 30px; }
@@ -4106,6 +4112,84 @@ p.read-more-btn a span {
 
 .panel-body {
   padding: 20px 0; }
+
+.tabs {
+  overflow: hidden; }
+
+.grosma-tabs ul.tabs {
+  margin-top: 30px; }
+
+ul.tabs {
+  width: 100%;
+  padding: 0;
+  border-bottom: 1px solid #333;
+  margin: 0;
+  float: left;
+  list-style: none;
+  margin-top: 30px; }
+
+ul.tabs li.active {
+  border-bottom: 1px solid #0085b9;
+  display: block;
+  background-color: #0085b9;
+  color: #fff; }
+
+ul.tabs li {
+  width: 150px;
+  height: 60px;
+  padding: 0 23px;
+  border: 0;
+  margin: 0;
+  float: left;
+  position: relative;
+  background-color: #c5c5c5;
+  cursor: pointer;
+  color: #000;
+  font-size: 12px;
+  line-height: 31px;
+  overflow: hidden;
+  text-align: center;
+  margin-right: 2px; }
+
+.tab-title {
+  width: 100%;
+  height: 60px;
+  display: table;
+  text-align: center; }
+
+ul.tabs li.active h2 {
+  color: #fff; }
+
+ul.tabs h2 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  line-height: 18px; }
+
+.tabs li {
+  display: inline-block;
+  cursor: pointer; }
+
+.tab_last {
+  border-right: 0px solid #333; }
+
+.tab_container {
+  width: 100%;
+  border-top: 1px solid #034c77;
+  border-bottom: 2px solid #034c77;
+  float: left;
+  clear: both;
+  background: #fff;
+  overflow: auto; }
+
+.tab_drawer_heading {
+  display: none; }
+
+.tab_content {
+  padding: 20px;
+  display: none; }
 
 h2.recbox-title, .recbox-list-main h2 {
   margin-bottom: 20px;
@@ -6860,6 +6944,11 @@ ul.ui-autocomplete {
       top: 30%;
       left: 82%; } }
 
+@media only screen and (max-width: 2250px) and (min-width: 1500px) {
+  .navig__list {
+    top: 25%;
+    left: 135%; } }
+
 @media only screen and (max-width: 418px) and (min-width: 375px) {
   .navig__list {
     top: 30%;
@@ -6937,6 +7026,60 @@ section#related_insights {
 
 .recbox-img {
   border: 1px dashed #5d5b5b; }
+
+.ceo-info {
+  margin-top: 25px;
+  position: relative; }
+
+.Other-services {
+  padding: 64px 0;
+  background: #034c77;
+  color: #fff;
+  margin-top: 50px; }
+
+.Other-services h2 {
+  padding-top: 4px;
+  padding-left: 0;
+  margin-bottom: 35px;
+  position: relative;
+  color: #fff;
+  font: 900 68px/0.8 'Roboto', sans-serif;
+  letter-spacing: -2px;
+  text-transform: uppercase; }
+
+.service-links {
+  padding-left: 45px; }
+
+.Other-services ul li {
+  padding: 10px;
+  list-style: none;
+  font-size: 18px;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.Other-services a {
+  padding: 11px 0;
+  margin-bottom: 22px;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.63);
+  color: #fff;
+  font-size: 14px; }
+
+.Other-services ul .fa {
+  /* padding: 6px 11px; */
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  transform: rotate(0.001deg);
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  padding-left: 10px;
+  line-height: 25px; }
+
+@media (min-width: 768px) {
+  .service-links .row .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 100%; } }
 
 .section-insights {
   overflow: hidden; }
