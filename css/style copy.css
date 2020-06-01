@@ -1521,7 +1521,7 @@ td {
   }
 
   /* line 535, ../sass/partials/_responsive.scss */
-  .new-contactus-icon-div .contact-us-content {
+  .new-contactus-icon-div .contact_us.html-content {
     text-align: center;
   }
 
@@ -1987,14 +1987,14 @@ td {
     padding: 24px;
   }
 
-  /* Contact-us page */
+  /* contact_us.html page */
   /* line 880, ../sass/partials/_responsive.scss */
-  #contact-us-page .generic-contact-us-forms .g-recaptcha > div {
+  #contact_us.html-page .generic-contact_us.html-forms .g-recaptcha > div {
     margin: 0 0 0 15px;
   }
 
   /* line 882, ../sass/partials/_responsive.scss */
-  #contact-us-page .webform-client-form-wrapper button.webform-submit {
+  #contact_us.html-page .webform-client-form-wrapper button.webform-submit {
     float: none;
   }
 
@@ -2957,7 +2957,7 @@ td {
   h1.big-title,
   .testimonial-slider h2,
   .grosma-main-head,
-  .footer-contact-us h2 {
+  .footer-contact_us.html h2 {
     font-size: 50px;
     line-height: 60px;
   }
@@ -2992,13 +2992,13 @@ td {
   }
 
   /* line 1646, ../sass/partials/_responsive.scss */
-  #contact-us-page .generic-contact-us-forms .g-recaptcha > div {
+  #contact_us.html-page .generic-contact_us.html-forms .g-recaptcha > div {
     width: 305px !important;
     margin: 0 0 15px 15px;
   }
 
   /* line 1651, ../sass/partials/_responsive.scss */
-  .contact-us-wrapper .webform-client-form-wrapper button.webform-submit {
+  .contact_us.html-wrapper .webform-client-form-wrapper button.webform-submit {
     width: 305px;
     margin: 0;
     float: none;
@@ -3879,7 +3879,7 @@ td {
 
   /* Contact Us css starts here*/
   /* line 2292, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper {
+  div#dynamic-contact_us.html-wrapper {
     width: 100% !important;
   }
 
@@ -3890,7 +3890,7 @@ td {
   }
 
   /* line 2299, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper .form-item-submitted-consent-submitted-status-1 label {
+  div#dynamic-contact_us.html-wrapper .form-item-submitted-consent-submitted-status-1 label {
     font-size: 11px;
     line-height: 24px !important;
   }
@@ -4166,27 +4166,27 @@ td {
   }
 
   /* line 2523, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper {
+  div#dynamic-contact_us.html-wrapper {
     width: 100%;
   }
 
   /* line 2526, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper .form-item-submitted-consent-submitted-status-1 .error.customjserror {
+  div#dynamic-contact_us.html-wrapper .form-item-submitted-consent-submitted-status-1 .error.customjserror {
     top: 18px;
   }
 
   /* line 2529, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper .form-item-submitted-consent-submitted-status-1 input {
+  div#dynamic-contact_us.html-wrapper .form-item-submitted-consent-submitted-status-1 input {
     height: 15px !important;
   }
 
   /* line 2532, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper .webform-client-form-wrapper {
+  div#dynamic-contact_us.html-wrapper .webform-client-form-wrapper {
     padding: 10px;
   }
 
   /* line 2535, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper .error {
+  div#dynamic-contact_us.html-wrapper .error {
     font-size: 11px;
   }
 
@@ -4201,7 +4201,7 @@ td {
   }
 
   /* line 2544, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper .form-submit {
+  div#dynamic-contact_us.html-wrapper .form-submit {
     width: auto;
   }
 
@@ -4224,7 +4224,7 @@ td {
   }
 
   /* line 2559, ../sass/partials/_responsive.scss */
-  div#dynamic-contact-us-wrapper .form-item-submitted-consent-submitted-status-1 label {
+  div#dynamic-contact_us.html-wrapper .form-item-submitted-consent-submitted-status-1 label {
     font-size: 9px;
     line-height: 24px !important;
   }
@@ -4548,7 +4548,7 @@ td {
   h1.big-title,
   .testimonial-slider h2,
   .grosma-main-head,
-  .footer-contact-us h2 {
+  .footer-contact_us.html h2 {
     font-size: 31px;
     line-height: 40px;
   }
@@ -4978,7 +4978,7 @@ td {
     margin-top: 20px;
   }
 
-  /* Contact-us page */
+  /* contact_us.html page */
   /* line 3136, ../sass/partials/_responsive.scss */
   .new-common-form-wrap .col-md-6 {
     padding: 0;
@@ -5023,7 +5023,7 @@ td {
 }
 @media only screen and (max-width: 360px) {
   /* line 3288, ../sass/partials/_responsive.scss */
-  #contact-us-page .generic-contact-us-forms .g-recaptcha > div {
+  #contact_us.html-page .generic-contact_us.html-forms .g-recaptcha > div {
     width: 260px !important;
     overflow-x: scroll;
   }
@@ -5037,12 +5037,12 @@ td {
   }
 
   /* line 3300, ../sass/partials/_responsive.scss */
-  #contact-us-page .generic-contact-us-forms .g-recaptcha iframe {
+  #contact_us.html-page .generic-contact_us.html-forms .g-recaptcha iframe {
     width: 305px !important;
   }
 
   /* line 3302, ../sass/partials/_responsive.scss */
-  .contact-us-wrapper .webform-client-form-wrapper button.webform-submit {
+  .contact_us.html-wrapper .webform-client-form-wrapper button.webform-submit {
     width: 100%;
   }
 
@@ -14615,12 +14615,12 @@ div#grosma-accordion-1 {
 
 @media screen and (max-width: 480px) {
   /* line 2093, ../sass/partials/_custom.scss */
-  div#dynamic-contact-us-wrapper {
+  div#dynamic-contact_us.html-wrapper {
     width: 100%;
   }
 
   /* line 2096, ../sass/partials/_custom.scss */
-  #dynamic-contact-us-wrapper input#edit-submitted-consent-submitted-status-1 {
+  #dynamic-contact_us.html-wrapper input#edit-submitted-consent-submitted-status-1 {
     height: 20px;
     width: 20px;
     margin-right: 4px;
@@ -14793,7 +14793,7 @@ h3.offerings-title:after {
 
 /*==== Offering section ends here ===============*/
 /* line 2241, ../sass/partials/_custom.scss */
-.contact-us-today-wrapper {
+.contact_us.html-today-wrapper {
   margin-bottom: 20px;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 16px;
@@ -14801,7 +14801,7 @@ h3.offerings-title:after {
 }
 
 /* line 2248, ../sass/partials/_custom.scss */
-#contact-us-page .email-icons {
+#contact_us.html-page .email-icons {
   width: 50px;
   display: inline-block;
   vertical-align: top;
@@ -14809,25 +14809,25 @@ h3.offerings-title:after {
 }
 
 /* line 2255, ../sass/partials/_custom.scss */
-#contact-us-page .email-content {
+#contact_us.html-page .email-content {
   display: inline-block;
   vertical-align: top;
 }
 
 /* line 2261, ../sass/partials/_custom.scss */
-#contact-us-page .email-content a,
-#contact-us-page .email-content strong {
+#contact_us.html-page .email-content a,
+#contact_us.html-page .email-content strong {
   display: block;
 }
 
 /* line 2263, ../sass/partials/_custom.scss */
-#contact-us-page .generic-contact-us-forms .g-recaptcha > div {
+#contact_us.html-page .generic-contact_us.html-forms .g-recaptcha > div {
   margin: 0;
   margin-left: 10px;
 }
 
 /* line 2265, ../sass/partials/_custom.scss */
-#contact-us-page .new-contactus-icon-div {
+#contact_us.html-page .new-contactus-icon-div {
   padding: 0;
 }
 
@@ -18054,7 +18054,7 @@ div#tab-3::before {
 }
 
 /* line 4858, ../sass/partials/_custom.scss */
-.generic-contact-us-forms select.contact-form-select.form-select {
+.generic-contact_us.html-forms select.contact-form-select.form-select {
   width: 100%;
   height: 34px;
   padding-left: 9px;
@@ -18070,7 +18070,7 @@ h2.highlighted-text {
 }
 
 /* line 4872, ../sass/partials/_custom.scss */
-.generic-contact-us-forms .select-form {
+.generic-contact_us.html-forms .select-form {
   background: #0088bb;
   padding: 15px;
   margin-bottom: 0;
@@ -18078,13 +18078,13 @@ h2.highlighted-text {
 }
 
 /* line 4878, ../sass/partials/_custom.scss */
-.generic-contact-us-forms .webform-component--country.form-item.form-group {
+.generic-contact_us.html-forms .webform-component--country.form-item.form-group {
   background: transparent;
   padding-bottom: 0;
 }
 
 /* line 4883, ../sass/partials/_custom.scss */
-.generic-contact-us-forms .webform-client-form-wrapper {
+.generic-contact_us.html-forms .webform-client-form-wrapper {
   margin-top: 0px;
 }
 
@@ -18094,12 +18094,12 @@ h2.highlighted-text {
 }
 
 /* line 4889, ../sass/partials/_custom.scss */
-.generic-contact-us-forms {
+.generic-contact_us.html-forms {
   margin-left: 0px;
 }
 
 /* line 4892, ../sass/partials/_custom.scss */
-.generic-contact-us-forms .contact-us-lable {
+.generic-contact_us.html-forms .contact_us.html-lable {
   background: #0088bb;
   padding: 10px 0 0 19px;
   margin-bottom: 0px;
@@ -18109,9 +18109,9 @@ h2.highlighted-text {
   font-size: 16px;
 }
 
-/*.generic-contact-us-forms .contact-us-wrapper { display:none; }*/
+/*.generic-contact_us.html-forms .contact_us.html-wrapper { display:none; }*/
 /* line 4908, ../sass/partials/_custom.scss */
-.contact-us-content {
+.contact_us.html-content {
   margin-top: 0;
 }
 
@@ -18280,7 +18280,7 @@ h2.highlighted-text {
 }
 
 /* line 5039, ../sass/partials/_custom.scss */
-.contact-us-wrapper .webform-client-form-wrapper button.webform-submit {
+.contact_us.html-wrapper .webform-client-form-wrapper button.webform-submit {
   width: 27%;
   height: 52px;
   font-size: 22px;
@@ -21041,9 +21041,9 @@ section#block-block-52 {
     height: 75px;
   }
 
-  /* Contact-us page icons */
+  /* contact_us.html page icons */
   /* line 7189, ../sass/partials/_custom.scss */
-  #contact-us-page .email-icons {
+  #contact_us.html-page .email-icons {
     height: 40px;
   }
 
@@ -21597,7 +21597,7 @@ p.webcast-message {
   margin-bottom: 20px;
 }
 
-/* New contact-us page design css starts here*/
+/* New contact_us.html page design css starts here*/
 /* line 7626, ../sass/partials/_custom.scss */
 .row.new-form-tabs {
   display: block;
@@ -21780,32 +21780,32 @@ a.cot-text-flow {
 }
 
 /* line 7789, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .form-item-submitted-consent-submitted-status {
+div#dynamic-contact_us.html-wrapper .form-item-submitted-consent-submitted-status {
   margin-left: 15px;
   min-height: 20px !important;
 }
 
 /* line 7794, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper #edit-submitted-response-requested .checkbox label {
+div#dynamic-contact_us.html-wrapper #edit-submitted-response-requested .checkbox label {
   font-size: 12px;
   line-height: 19px !important;
 }
 
 /* line 7799, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .form-item {
+div#dynamic-contact_us.html-wrapper .form-item {
   /* margin-bottom: 15px !important;
   min-height: 46px; */
   position: relative;
 }
 
 /* line 7804, ../sass/partials/_custom.scss */
-#dynamic-contact-us-wrapper .webform-client-form-wrapper .form-item input, #dynamic-contact-us-wrapper .webform-client-form-wrapper .form-item select {
+#dynamic-contact_us.html-wrapper .webform-client-form-wrapper .form-item input, #dynamic-contact_us.html-wrapper .webform-client-form-wrapper .form-item select {
   height: auto;
   margin-bottom: 0;
 }
 
 /* line 7810, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper {
+div#dynamic-contact_us.html-wrapper {
   width: 96%;
   margin-bottom: 55px;
   font-family: roboto;
@@ -21814,12 +21814,12 @@ div#dynamic-contact-us-wrapper {
 }
 
 /* line 7819, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .webform-client-form-wrapper .webform-component--response-requested .form-item {
+div#dynamic-contact_us.html-wrapper .webform-client-form-wrapper .webform-component--response-requested .form-item {
   min-height: 20px !important;
 }
 
 /* line 7823, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .error {
+div#dynamic-contact_us.html-wrapper .error {
   color: #cc3333;
   font-style: italic;
   font-size: 12px;
@@ -21839,20 +21839,20 @@ input#edit-submitted-consent-submitted-status-1 {
 }
 
 /* line 7839, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .form-item-submitted-consent-submitted-status-1 label {
+div#dynamic-contact_us.html-wrapper .form-item-submitted-consent-submitted-status-1 label {
   font-size: 16px;
   line-height: 25px !important;
 }
 
 /* line 7843, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .form-item-submitted-consent-submitted-status-1 input {
+div#dynamic-contact_us.html-wrapper .form-item-submitted-consent-submitted-status-1 input {
   height: 17px !important;
   width: 17px;
   margin-right: 6px;
 }
 
 /* line 7848, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .webform-client-form-wrapper {
+div#dynamic-contact_us.html-wrapper .webform-client-form-wrapper {
   margin-top: 0px;
   background-color: #f7f7f7;
   padding-top: 30px !important;
@@ -21862,7 +21862,7 @@ div#dynamic-contact-us-wrapper .webform-client-form-wrapper {
 }
 
 /* line 7857, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .form-submit {
+div#dynamic-contact_us.html-wrapper .form-submit {
   background: #006699;
   width: 300px;
   float: left;
@@ -21871,29 +21871,29 @@ div#dynamic-contact-us-wrapper .form-submit {
 }
 
 /* line 7865, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .form-item {
+div#dynamic-contact_us.html-wrapper .form-item {
   margin-bottom: 30px !important;
   min-height: auto;
 }
 
 /* line 7870, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .form-item.form-item-submitted-consent-submitted-status-1.form-type-checkbox.checkbox {
+div#dynamic-contact_us.html-wrapper .form-item.form-item-submitted-consent-submitted-status-1.form-type-checkbox.checkbox {
   margin-left: 0px;
   min-height: 20px !important;
 }
 
 /* line 7874, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .webform-client-form-wrapper .webform-component--response-requested .form-item {
+div#dynamic-contact_us.html-wrapper .webform-client-form-wrapper .webform-component--response-requested .form-item {
   min-height: auto !important;
 }
 
 /* line 7875, ../sass/partials/_custom.scss */
-div#dynamic-contact-us-wrapper .col-sm-12.form-item.webform-component.webform-component-checkboxes.webform-component--response-requested.form-group.form-item.form-item-submitted-response-requested.form-type-checkboxes.form-group {
+div#dynamic-contact_us.html-wrapper .col-sm-12.form-item.webform-component.webform-component-checkboxes.webform-component--response-requested.form-group.form-item.form-item-submitted-response-requested.form-type-checkboxes.form-group {
   min-height: 0px !important;
 }
 
 /* line 7878, ../sass/partials/_custom.scss */
-#dynamic-contact-us-wrapper .form-item.webform-component-select.webform-component--revenue {
+#dynamic-contact_us.html-wrapper .form-item.webform-component-select.webform-component--revenue {
   clear: both;
 }
 
@@ -22349,7 +22349,7 @@ section.products h4 {
 }
 
 /* line 8257, ../sass/partials/_custom.scss */
-.corona-lp .generic-contact-us-forms {
+.corona-lp .generic-contact_us.html-forms {
   padding: 15px;
   background: #eaeaea;
   padding-top: 0;
@@ -24642,7 +24642,7 @@ footer.bg-dark .block-title {
 }
 
 /* line 1355, ../sass/partials/_header_nav.scss */
-#contact-us-page footer, #connect-with-grosma-page footer, #schedule-demo-page footer, #request-for-proposal-page footer, #feedback-page footer {
+#contact_us.html-page footer, #connect-with-grosma-page footer, #schedule-demo-page footer, #request-for-proposal-page footer, #feedback-page footer {
   margin-bottom: 0;
 }
 
@@ -25017,7 +25017,7 @@ a.subsc-thn-btn:hover {
 }
 
 /
-.footer-contact-us {
+.footer-contact_us.html {
   width: 100%;
   padding: 6% 50px;
   margin: 0 auto;
@@ -25032,7 +25032,7 @@ a.subsc-thn-btn:hover {
 }
 
 /* line 1673, ../sass/partials/_header_nav.scss */
-.footer-contact-us h2 {
+.footer-contact_us.html h2 {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 }
 
@@ -25084,7 +25084,7 @@ a.subsc-thn-btn:hover {
 }
 
 /* line 1718, ../sass/partials/_header_nav.scss */
-.footer-contact-us h2 {
+.footer-contact_us.html h2 {
   font-size: 68px;
   text-transform: uppercase;
   position: relative;
@@ -25176,7 +25176,7 @@ section#block-views-tweets-block h2 {
   }
 
   /* line 1795, ../sass/partials/_header_nav.scss */
-  .footer-contact-us {
+  .footer-contact_us.html {
     width: 100%;
     height: auto;
     position: static;
@@ -25283,7 +25283,7 @@ section#block-views-tweets-block h2 {
   }
 
   /* line 1879, ../sass/partials/_header_nav.scss */
-  .footer-contact-us {
+  .footer-contact_us.html {
     width: 100%;
     height: auto;
     position: static;
@@ -25304,7 +25304,7 @@ section#block-views-tweets-block h2 {
   }
 
   /* line 1898, ../sass/partials/_header_nav.scss */
-  .footer-contact-us {
+  .footer-contact_us.html {
     width: 100%;
     height: auto;
     position: static;
@@ -25326,7 +25326,7 @@ section#block-views-tweets-block h2 {
   }
 
   /* line 1920, ../sass/partials/_header_nav.scss */
-  .footer-contact-us {
+  .footer-contact_us.html {
     width: 100%;
     height: auto;
     position: static;
@@ -25334,7 +25334,7 @@ section#block-views-tweets-block h2 {
   }
 
   /* line 1927, ../sass/partials/_header_nav.scss */
-  .footer-contact-us h2 {
+  .footer-contact_us.html h2 {
     font-size: 36px;
   }
 
@@ -25390,7 +25390,7 @@ section#block-views-tweets-block h2 {
   }
 
   /* line 1975, ../sass/partials/_header_nav.scss */
-  .footer-contact-us {
+  .footer-contact_us.html {
     padding: 15px 10px;
   }
 }
@@ -25402,14 +25402,14 @@ section#block-views-tweets-block h2 {
   }
 
   /* line 1983, ../sass/partials/_header_nav.scss */
-  .footer-contact-us {
+  .footer-contact_us.html {
     width: 100%;
     height: auto;
     position: static;
   }
 
   /* line 1990, ../sass/partials/_header_nav.scss */
-  .footer-contact-us h2 {
+  .footer-contact_us.html h2 {
     font-size: 36px;
   }
 }
