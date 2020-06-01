@@ -845,19 +845,21 @@
           </div>
         </nav>
     </header>
+  
 
-    <header class="hero"> 
+    <header class="hero "> 
       <div  class="slick__slider">
         <div class="slide__content">
-          <div class="fill overlay" data-image="img/banners/capability.jpg" style="background-image:url(img/banners/capability.jpg)">
+          <div class="fill overlay" data-image="img/banners/contactcjpg" style="background-image:url(img/banners/contact.jpg)">
           </div>
 
           <div class="hero__text-box u-margin-bottom-medium">
             <h1 class="heading-primary" data-aos= "fade-up">
-              <span class="heading-primary--main u-margin-top-big" style="color: white;">Discover your Capabilities</span>
+              <span class="heading-primary--main u-margin-top-big" style="color: white;">Contact Us
+                </span>
               <span class="heading-primary--sub" style="color: white;text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
             
-             "></span>
+             "> Do you have questions? Need more information? Want to give us a feedback? It would be our pleasure to hear from you</span>
             </h1>
           </div>
         </div>
@@ -865,38 +867,95 @@
     </header>
 
     <main>
+
       <section class=" bg-white"> 
-        <section class="section-title">
+        <section class="section-title u-margin-top-small">
             <div class="page-row">
             <h1 class="big-title intro-title color-black" data-aos="fade-up" data-aos-delay="500ms" data-aos-duration="600ms">
-              Capability Development
+              Contact Us
             </h1>
           </div>
-        </section>]
+        </section>
         
       
         <section class="section-content">
           <div class=" page-row" >
-            <div class="col-pg-3-of-4 intro-details font-grey ">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel inventore, autem dolorum repudiandae ex maxime earum nobis quia blanditiis, atque doloremque, repellat impedit consequatur harum non nemo? Ea, neque ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. At laboriosam provident necessitatibus, inventore excepturi, rem id accusantium sunt atque sapiente iste doloribus architecto perspiciatis cumque quos ullam nulla possimus nostrum.</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, explicabo omnis iure culpa vero earum nesciunt facere ex architecto mollitia cumque natus ab odio exercitationem ullam consectetur, corrupti voluptatibus molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ad repellat quasi cumque ipsa dolore soluta aut et, earum repudiandae molestiae voluptatum assumenda praesentium non voluptate eius illo cum! Exercitationem!</p>
+            <div id="contact-form" style="display: block;">
+              <h3 class="contact-h3">Need more assistance?</h3>
+              <p>Call ‒ <a class="link-fade" href="#">08077776767</a> <strong>-or-</strong> use the contact form.</p>
+              <div class="grosma-rule grosma-alternate grosma-gray-30"><hr></div>
+              <p>Asterisks (<span class="igrosmarequired">*</span>) indicate fields required to complete this contact form.</p>
+              <form id="contact_form" class="grosma-row-form" method="post" autocomplete="off">
+                <input type="hidden" name="thankyoupage" value="">
+                <input type="hidden" name="sort" value="">
+                <input type="hidden" name="NCOUNTRY" value="ot">
+                <p>
+                  <label for="name">Name:<span class="grosma-required">*</span></label>
+                  <span>
+                    <input type="text" class="formElement" value="" size="50" id="name" name="NFNAME" required="" oninvalid="this.setCustomValidity('Please enter your name')" oninput="setCustomValidity('')" maxlength="32">
+                  </span>
+                </p>
+                <p>
+                  <label for="email">Email:<span class="grosma-required">*</span></label>
+                  <span>
+                    <input type="email" class="formElement" value="" size="50" id="email" name="NELECADR" required="" maxlength="120" oninvalid="this.setCustomValidity('Please enter your email address')" oninput="setCustomValidity('')">
+                  </span>
+                </p>
+                <p>
+                  <label for="phone">Phone:</label>
+                  <span>
+                    <input type="tel" pattern="[0-9 ()+-]+" class="formElement" value="" size="50" id="phone" maxlength="16" name="NPHONE" oninvalid="this.setCustomValidity('Please enter a valid phone number')" oninput="setCustomValidity('')">
+                  </span>
+                </p>
+                <p class="grosma-form-elem-grp">
+                  <label>Message category:<span class="ibm-required">*</span></label>
+                  <span>
+                    <select id="category" name="message_category" class="formElement select2-hidden-accessible ibm-widget-processed" required="" tabindex="-1" style="width: 250.8px;" aria-hidden="true">
+                      <option value="" selected="">Select one</option>
+                      <option value="Government and Non-profit">Government and Non-profit</option>
+                      <option value="Grosma Global Business Partners">Grosma Global Business Partners</option>
+                      <option value="Grosma Global Services">Grosma Global Services</option>
+                      <option value="Strategy">Strategy</option>
+                      <option value="Industry solutions">Industry solutions</option>
+                      <option value="Jobs at Grosma Global">Jobs at Grosma Global</option>
+                      <option value="Managed Services">Managed Services</option>
+                      <option value="Industries">Industries</option>
+                      <option value="Privacy">Privacy</option>
+                      <option value="Software">Software</option>
+                      <option value="Other">Other</option>
+                    </select>
+                    <span class="select2 select2-container select2-container--default" dir="ltr" style="width: 250.8px;">
+                      <span class="selection">
+                        <!-- <span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-category-container" style="user-select: auto !important;">
+                          <!-- <span class="select2-selection__rendered" id="select2-category-container" title="Select one">Select one</span> 
+                          <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
+                        </span> -->
+                      </span>
+                      <span class="dropdown-wrapper" aria-hidden="true"></span>
+                    </span>
+                  </span>
+                </p>
+                <p class="grosma-form-elem-grp">
+                  <label>Message:<span class="ibm-required">*</span></label>
+                  <span>
+                    <textarea id="message" class="formElement" cols="50" rows="10" name="message" required="" maxlength="1200" oninvalid="this.setCustomValidity('Please enter a message to be sent')" oninput="setCustomValidity('')"></textarea>
+                  </span>
+                </p>
+                
+                <div class="grosma-rule grosma-alternate grosma-gray-30"><hr></div>
+
+                <div id="privacyid">
+                  <p style="padding: 0 0 8px 0">By submitting this form, I acknowledge that I have read and understand the <a href="privacy.html" target="_blank">GROSMA GLOBAL Privacy Statement</a>.</p>
+                  <input type="hidden" name="CPRIVACY" value="P">
+                  
+                  <noscript><p>Please Visit GROSMA GLOBAL Privacy Policy Here <a href="privacy.html" target="_blank">Privacy</a> policy.</p></noscript>
+                </div>
+
+                <p class="grosma-btn-row grosma-button-link">
+                  <button id="submitBttn" class="btn btn--blue" name="grosmasubmit">Submit</button>
+                </p>
+              </form>
             </div>
-            <div class="col-pg-1-of-4 intro-picture"  data-aos="fade-up" data-aos-delay="600ms" data-aos-duration="1500ms">
-              <a href="#"><img alt="" src="img/banners/portrait-1.jpg"> </a>
-            </div>
-          </div>
-
-          <div class=" page-row" >
-            <h2 class=" content-title-1">Vendor  Development</h2>
-            <p class="font-grey">GROSMA GLOBAL combines strategic procurement consulting services, cutting-edge technology, and managed services to help clients achieve their strategic, operational and financial objectives.</p>
-            <p class="font-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod earum, accusamus nulla molestias blanditiis iusto laudantium laboriosam iure quo corrupti iste error cum voluptatem sequi sint nostrum tenetur consequatur velit?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab at quod qui dolores! Iusto, laborum dignissimos fugiat facere nulla assumenda id esse possimus a eligendi vel laboriosam excepturi, saepe ipsum.</p>
-            
-
-            <h2 class="content-title-1">Building Organizational Capability</h2>
-
-            <p class="font-grey">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi quia ab corrupti dolorum vero nam, consectetur natus recusandae perferendis? Nostrum ratione officiis rem doloribus cum rerum ab minus quas quaerat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque adipisci quam eveniet. Dolor, cumque. Non voluptate alias voluptatem explicabo molestiae, exercitationem soluta distinctio quibusdam minima consectetur, amet natus harum libero!.</p>
-
-            <p class="font-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eum eius ratione exercitationem fugit quo tempore ad laboriosam quaerat, tempora reiciendis? Voluptatem sed molestiae necessitatibus, doloremque veritatis inventore quibusdam reprehenderit.</p>
           </div>
 
           <div class="page-row">
@@ -917,30 +976,7 @@
         </section>
       </section>
 
-      <section id="more-about-us" class=" Other-services clearfix" data-aos="fade-up" style="visibility: visible;">
       
-        <div class="container">
-                  <div class="col-md-4 col-sm-12 col-xs-12 margin-bottom">
-                    <div class="col-xs-12 text-left">
-                      <h2>Related Services</h2>
-                    </div>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="col-md-8 service-links">
-                      <div class="row">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error assumenda optio, quo id molestiae natus perspiciatis dicta nemo ipsam amet fugiat earum nulla! Exercitationem consequuntur amet eligendi animi iste error!.</p>
-                      </div>
-                      <div class="row col-md-12">
-                        <ul>
-                          <li class="col-md-6"><a href="/company/leadership"><i class="fa fa-angle-right" aria-hidden="true"></i>Procurement Transformation</a></li>
-                          <li class="col-md-6"><a href="/company/clients"><i class="fa fa-angle-right" aria-hidden="true"></i>Training</a></li>
-                          <li class="col-md-6"><a href="/company/news"><i class="fa fa-angle-right" aria-hidden="true"></i>Strategic Sourcing & Procurement</a></li>
-                          <li class="col-md-6"><a href="/events"><i class="fa fa-angle-right" aria-hidden="true"></i>Strategic Procurement</a></li>
-                        </ul>
-                      </div>
-                  </div>
-                </div>
-      </section>
     </main>
 
     
@@ -1015,7 +1051,7 @@
           </section>
         </div>
       </div>
-    </footer>
+    </footer>>
   
     <div class="region region-footer-bottom"> 
       <section id="block-block-52" class="block block-block clearfix">       
