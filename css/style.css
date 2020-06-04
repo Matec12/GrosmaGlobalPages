@@ -7465,6 +7465,12 @@ header[role="banner"] {
   opacity: 0;
   width: 0;
   transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  @media only screen and (max-width: 680px) and (min-width: 550px) {
+    .navig__nav {
+      left: 250px; } }
+  @media only screen and (max-width: 549px) and (min-width: 430px) {
+    .navig__nav {
+      left: 150px; } }
 
 .navig__list {
   position: absolute;
@@ -7530,7 +7536,7 @@ header[role="banner"] {
 
 .navig__checkbox:checked ~ .navig__nav {
   opacity: 1;
-  width: 100%; }
+  width: 99%; }
 
 .navig__icon {
   position: relative;
@@ -7569,6 +7575,9 @@ header[role="banner"] {
 
 .navig__item:checked ~ .navig__background {
   transform: scaleY(100) scaleX(130); }
+
+.nav_item a:hover ~ .navig__nav {
+  top: 300px; }
 
 section#related_insights {
   padding: 40px 0;
