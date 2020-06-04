@@ -42,6 +42,7 @@
   <script src="js/modernizr.js"></script>
   <script src="://kit.fontawesome.com/abbd2d7d5b.js"></script>
   <script src="https://kit.fontawesome.com/abbd2d7d5b.js"></script>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <title>GROSMA GLOBAL UK LTD | YOUR PROCUREMENT PARTNER</title>
 </head>
 <body>
@@ -50,7 +51,7 @@
     <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
   </div>
 
-  <header>
+  <header >
     <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation">
   
       <div class="row" style="width: 100%;">
@@ -815,38 +816,174 @@
           </div>
         </div>
 
+        <!-- <form class="navbar_search_form">
+          <input class="navbar_search_input" type="search" placeholder="Find vendor by name or services">
+          <ul class="searchbar_autocomplete">
+          </ul>
+          <button class="navbar_search_btn navbar_search_submit" type="submit">
+              <svg class="cust_icon icon_xs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                  <path class="cls-1" d="M58.53,51.44l-13-13c-.07-.07-.15-.12-.22-.18a24.68,24.68,0,1,0-7.05,7c.06.07.11.15.18.22l13,13a5,5,0,1,0,7.09-7.09ZM24.67,40.78A16.12,16.12,0,1,1,40.78,24.67,16.12,16.12,0,0,1,24.67,40.78Z"/>
+              </svg>
+          </button>
+          <button class="navbar_search_btn navbar_search_reset" type="reset">
+              <svg class="cust_icon icon_xs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+                  <path d="M60.9,3.1L60.9,3.1c-1.5-1.5-4-1.5-5.5,0L32,26.5L8.7,3.1c-1.5-1.5-4-1.5-5.5,0l0,0c-1.5,1.5-1.5,4,0,5.5
+                  L26.5,32L3.1,55.3c-1.5,1.5-1.5,4,0,5.5l0,0c1.5,1.5,4,1.5,5.5,0L32,37.5l23.3,23.3c1.5,1.5,4,1.5,5.5,0l0,0c1.5-1.5,1.5-4,0-5.5
+                  L37.5,32L60.9,8.7C62.4,7.2,62.4,4.7,60.9,3.1z"/>
+              </svg>
+          </button>
+        </form> -->
+
         <!-- Right Side Menu-->
         <div class="overlay22 right-menu" id="overlay">
-              <div class="navig">
-                <input type="checkbox" class="navig__checkbox" id="navi-toggle">
-                <label for="navi-toggle" class="navig__button">
-                  <span class="navig__icon">&nbsp;</span>
-                </label>
-        
-                 <div class="navig__background">&nbsp;</div>
+          <div class="navig">
+            <input type="checkbox" class="navig__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navig__button">
+              <span class="navig__icon">&nbsp;</span>
+            </label>
+    
+            <div class="navig__background">&nbsp;</div>
         
             <nav class="navig__nav">
-              <ul class="navig__list">
-                <!-- <li class="navig__item"><a href="#" class="navig__link">Search</a></li> -->
-                <li class="navig__item"><a href="index.html" class="navig__link">Home</a> </li>
-                <li class="navig__item"><a href="procurement_consulting.html" class="navig__link">Strategy</a> </li>
-                <li class="navig__item"><a href="#software-list" class="navig__link">Software</a> 
-                  <!-- <div class="navig__background">&nbsp;</div>
-                  <ul id="software-list" class="navig__list">
-                    <li class="navig__item"><a href="#" class="navig__link">Procurement</a></li>
-                  </ul> -->
-                </li>
-                <li class="navig__item"><a href="" class="navig__link">Managed Services</a> </li>
-                <li class="navig__item"><a href="industries.html" class="navig__link">Industries</a></li>
-                <!-- <li class="navig__item"><a href="#" class="navig__link">Knowledge Bank</a></li> -->
-                <li class="navig__item"><a href="about_us.html" class="navig__link">About Us</a></li>
-                <!-- <li class="navig__item"><a href="#" class="navig__link">Career</a></li> -->
-                <li class="navig__item"><a href="contact_us.html" class="navig__link">Contact Us</a></li>
-                <li class="navig__item"><a href="myAccount.html" class="navig__link">Language</a></li>
-              </ul>
+                <ul class="navig__list">
+
+                  <li class="search-form nav_item " data-toggle="tooltip"  data-placement="bottom" title="" data-original-title="Search">
+                    <a class=" nav_link_item search-icon" onclick="openSearch()">
+                      Search
+                    </a>
+                  </li>
+
+                  <li class="nav_item ">
+                    <a href="#" class="nav_link_item">Strategy</a>
+                    <!--Toggle "nav_visible" to show list-->
+                    <div class="sub_bav_block">
+                      <div class="nav_block_wrapper">
+                        <ul class="nav_item_list">
+                          <li class="nav_item"><a href="procurement_consulting.html">Procurement Consulting</a></li>
+                          <li class="nav_item"><a href="procurement_transformation.html">-- Procurement Transformation</a></li>
+                          <li class="nav_item"><a href="capability_development.html">-- Capability Development</a></li>
+                          <li class="nav_item"><a href="training.html">-- Training</a></li>
+                          <li class="nav_item"><a href="strategic_sourcing.html">-- Strategic Sourcing $ Procurement</a></li>
+                          <li class="nav_item"><a href="supply_chain_consulting.html">Supply Chain Consulting</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav_item">
+                    <a href="#" class="nav_link_item">Software</a>
+                    <!--Toggle "nav_visible" to show list-->
+                    <div class="sub_bav_block">
+                      <div class="nav_block_wrapper">
+                        <ul class="nav_item_list">
+                          <li class="nav_item"><a href="direct_indirect_procurement.html">Direct & Indirect Procurement</a></li>
+                          <li class="nav_item"><a href="procurement_transformation.html">Procurement Transformation</a></li>
+                          <li class="nav_item"><a href="spend_management.html">Spend Management</a></li>
+                          <li class="nav_item"><a href="collaboration.html">Collaboration</a></li>
+                          <li class="nav_item"><a href="visibility_execution.html">Visibility and Execution</a></li>
+                          <li class="nav_item"><a href="planning.html">Planning </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav_item">
+                    <a href="#" class="nav_link_item">Managed Services</a>
+                    <!--Toggle "nav_visible" to show list-->
+                    <div class="sub_bav_block">
+                      <div class="nav_block_wrapper">
+                        <ul class="nav_item_list">
+                          <li class="nav_item"><a href="procurement_outsourcing.html">Procurement Outsourcing</a></li>
+                          <li class="nav_item"><a href="spend_analysis.html">Spend Analysis</a></li>
+                          <li class="nav_item"><a href="strategic_sourcing.html">Strategic Sourcing & Procurement</a></li>
+                          <li class="nav_item"><a href="supply_market_intelligence.html">Supply Market Intelligence</a></li>
+                          <li class="nav_item"><a href="tail-spend_management.html">Tail-Spend Management</a></li>
+                          <li class="nav_item"><a href="procurement_support_services.html">Procurement Support Services</a></li>
+                          <li class="nav_item"><a href="cost-recovery_invoice-auditing.html">Cost Recovery &amp; Invoice Auditing</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav_item">
+                    <a href="about_us.html" class="nav_link_item">About Us</a>
+                  </li>
+
+                  <li class="nav_item">
+                    <a href="industries.html" class="nav_link_item">Industries</a>
+                  </li>
+
+                  <li class="nav_item">
+                    <a href="contact_us.html" class="nav_link_item">Contact Us</a>
+                  </li>
+                </ul>
             </nav>
           </div>
         </div>
+
+        <!-- <div class="navbar_container">
+          <div class="navbar_group navbar_group_right">
+            <nav class="primary_nav_menu">
+                <ul class="primary_nav">
+                    <li class="nav_item">
+                        <a href="#" class="nav_link_item">Local Vendors</a>
+                        Toggle "nav_visible" to show list
+                        <div class="sub_bav_block">
+                            <div class="nav_block_wrapper">
+                              <ul class="nav_item_list">
+                                  <li class="nav_item"><a href="service_listings.html">Caterers</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Disk Jockey</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Rentals</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Logistics</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Photographer / Videographer</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Musical Band</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Makeup / Makeover</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Security</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Ushering &amp; Hospitality</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Cakes &amp; Confectionaries</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Drinks &amp; Cocktails</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Fashion Designer</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Event Compere</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Venue Management</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Decoration</a></li>
+                                  <li class="nav_item"><a href="service_listings.html">Multimedia</a></li>
+                              </ul>
+                                <a href="all_services.html" class="nav_block_cta">
+                                    See all Vendors
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav_item">
+                        <a href="merchant_home.html" class="nav_link_item">Become a Vendor</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="login.html" class="nav_link_item">
+                        Login</a>
+                    </li>
+                    <li class="nav_item ">
+                        <a href="signup.html" class="nav_link_item link_highlight">
+                        Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="navbar_consts">
+                <div class="control_btns btn_search_trigger">
+                    <a href="#" class="">
+                        <svg class="cust_icon icon_xs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+                            <path class="cls-1" d="M58.53,51.44l-13-13c-.07-.07-.15-.12-.22-.18a24.68,24.68,0,1,0-7.05,7c.06.07.11.15.18.22l13,13a5,5,0,1,0,7.09-7.09ZM24.67,40.78A16.12,16.12,0,1,1,40.78,24.67,16.12,16.12,0,0,1,24.67,40.78Z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="control_btns btn_menu ">
+                    <a class="primary-nav-trigger" href="#0">
+                        <span class="menu-icon"></span>
+                        <span class="menu-text sr-only">Menu</span>
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div> -->
       </nav>
   </header>
 
